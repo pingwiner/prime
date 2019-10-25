@@ -26,7 +26,7 @@ void prime(int top) {
     printf("%d\n", count);
 }
 
-int main(int argc, char *argv[]) {
+int main2(int argc, char *argv[]) {
     if (argc < 2) return 0;
     //Открываем файл
     FILE* f = fopen(argv[1], "r");
